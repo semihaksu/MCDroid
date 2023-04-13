@@ -121,7 +121,7 @@ class ArticleSync : AppCompatActivity() {
 
         // Set the initial page and items per page
         var currentPage: Int = 1;
-        val itemsPerPage = 100;
+        val itemsPerPage = 500;
 
         scope.launch(Dispatchers.Main) {
             while (true) {
@@ -236,6 +236,7 @@ class ArticleSync : AppCompatActivity() {
             logTextView.append("--------------------------------------------\n")
             val container: ScrollView = findViewById(R.id.scrollContainer)
             container.post { container.fullScroll(View.FOCUS_DOWN) }
+            dbHelper(this@ArticleSync).close()
         }
     }
 }
