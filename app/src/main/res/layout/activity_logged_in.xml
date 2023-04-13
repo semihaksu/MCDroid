@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:text="@string/logged_in_message"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/inventoryButton"
+            android:text="@string/inventory_button_label"
+            android:ems="15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/importButton"
+            android:layout_below="@id/inventoryButton"
+            android:text="@string/import_button_label"
+            android:ems="15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/masterSyncButton"
+            android:layout_below="@id/importButton"
+            android:text="@string/master_sync_button_label"
+            android:ems="15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_below="@id/masterSyncButton"
+            android:text="@string/logout_button_label"
+            android:ems="15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

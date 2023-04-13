@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MCDroid</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+    <string name="login">Giriş Yap</string>
+    <string name="user_not_found">Kullanıcı bulunamadı!</string>
+    <string name="sync">Senkronize Et</string>
+
+    <string name="configuration">Uygulama Ayarları</string>
+    <string name="service_url">Web Servis URL</string>
+    <string name="helper_url">Yardımcı Servis URL</string>
+    <string name="service_www">http://xx.xx.xx.xx</string>
+    <string name="save_config">Ayarları Kaydet</string>
+    <string name="config_inserted">Konfigürasyon başarıyla tanımlandı.</string>
+    <string name="config_updated">Konfigürasyon başarıyla güncellendi.</string>
+    <string name="config_error">Konfigürasyon tanımlanırken hata!</string>
+
+    <string name="logged_in_title">Hoşgeldiniz !</string>
+    <string name="logged_in_message">Bu mesajı görüyorsanız, giriş yapmışsınız demektir.</string>
+    <string name="inventory_button_label">Envanter / Sayım</string>
+    <string name="import_button_label">Envanter İçe Aktar</string>
+    <string name="master_sync_button_label">Master Data</string>
+    <string name="logout_button_label">Çıkış Yap</string>
+
+    <string name="master_data_sync_activity">Ana Veri Aktarımı</string>
+    <string name="inventory_import">İçe Aktar</string>
+    <string name="users_sync">Kullanıcı Aktar</string>
+    <string name="units_sync">Birimleri Aktar</string>
+    <string name="groups_sync">Grupları Aktar</string>
+    <string name="article_sync">Ürünleri Aktar</string>
+</resources>
